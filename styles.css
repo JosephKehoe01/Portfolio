@@ -87,4 +87,19 @@ footer {
 
 .project a:hover {
     background-color: #ff6347;
+}
+
+#about a, #cv a {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 15px;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+#about a:hover, #cv a:hover {
+    background-color: #ff6347;
 } 
